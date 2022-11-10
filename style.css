@@ -1,0 +1,45 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+  background-color: #d7ccff;
+}
+
+p {
+  margin-top: 0%;
+  font-size: xx-large;
+}
+
+span {
+  font-size: xx-large;
+}
+
+button {
+  padding: 10px 25px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: #8a2be2;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  font-size: 1.4rem;
+  font-weight: 700;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.otpWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 400px;
+  height: 200px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
